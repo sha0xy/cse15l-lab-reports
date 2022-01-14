@@ -1,6 +1,14 @@
-![Image][1]
+# Lab Report 1
 
-[1]: images/screenshot1.png
-![Image][1]
+***This lab report is a tutorial to log into a course-specific account on ieng6.***
 
-[1]: /Users/eric/Documents/GitHub/cse15l-lab-reports/images/screenshot1.png
+
+> ## Steps
+***
+
+* Install VSCode  
+    Go to Visual Studio Code website [https://code.visualstudio.com/][1] to download and install the right version of VSCode. Open VSCode when installed, and it should look like this.![Image][2]
+
+    [2]: http://url/b.jpg
+   
+    [1]: https://code.visualstudio.com/
