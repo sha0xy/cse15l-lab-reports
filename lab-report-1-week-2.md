@@ -7,12 +7,10 @@
 
 * **Install VSCode**
 
-    Go to [Visual Studio Code website][1] to download and install the right version of VSCode. Open VSCode when installed and it should look like this.![Image][2]
+    Go to [Visual Studio Code website](https://code.visualstudio.com/) to download and install the right version of VSCode. Open VSCode when installed and it should look like this.![Image][2]
 
     [2]: images/VSCode.png
    
-    [1]: https://code.visualstudio.com/
-
 * **Connect Remotely**  
 
     If you are using Windows, first [install OpenSSH][3]. 
