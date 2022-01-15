@@ -114,7 +114,7 @@
     If you use Windows, follow `ssh-add` [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 
     If you succeed, it should look like this:
-
+    
     ![Image][8]
     ![Image][9]
 
@@ -122,7 +122,10 @@
     [9]: images/SSH2.png
 
     Now, you are able to log in `ssh` without entering password.
-    ![Image](images/SSH3.png)
+    
+    ![Image][10]
+
+    [10]: images/SSH3.png
 
 * **Optimizing Remote Running**
 
@@ -141,8 +144,8 @@
     3. Use up-arrow on the keyboard to recall the latest command that was run.
 
     It should look like this:
-    ![Image][10]
+    ![Image][11]
 
-    [10]: images/Optimize.png
+    [11]: images/Optimize.png
 
 ***-End of Lab Report 1-***
