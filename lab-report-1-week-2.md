@@ -4,11 +4,10 @@
 
 
 > ## Steps
-***
 
 * Install VSCode  
 
-    Go to Visual Studio Code website [https://code.visualstudio.com/][1] to download and install the right version of VSCode. Open VSCode when installed, and it should look like this.![Image][2]
+    Go to Visual Studio Code website [https://code.visualstudio.com/][1] to download and install the right version of VSCode. Open VSCode when installed and it should look like this.![Image][2]
 
     [2]: images/VSCode.png
    
@@ -45,6 +44,113 @@
     5.  `cp /home/linux/ieng6/cs15lwi22/public/hello.txt ~/`
     6. `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
+    Some examples:
+    ![Image][6]
+    ![Image][7]
+
+    [6]: images/Commands1.png
+    [7]: images/Commands2.png
+
 * Moving Files with `scp`
 
     The command `scp` can be used to copy a file from the client to the server.
+
+    Create a file named `WhereAmI.java` on your computer and enter the following contents.
+
+    ```
+    class WhereAmI {
+        public static void main(String[] args) {
+            System.out.println(System.getProperty("os.name"));
+            System.out.println(System.getProperty("user.name"));
+            System.out.println(System.getProperty("user.home"));
+            System.out.println(System.getProperty("user.dir"));
+        }
+    }
+    ```
+
+    Run it on your computer with `javac` and `java`.
+
+    Then, run this command (with your own account)
+
+    `scp WhereAmI.java cs15lwi22zz@ieng6.ucsd.edu:~/`
+
+    Enter the password and you are logged in. Use `javac` and `java` to run it again on the server.
+
+    It should look like this:
+    ![Image][8]
+    ![Image][9]
+    ![Image][10]
+
+    [8]: images/scp1.png
+    [9]: images/scp2.png
+    [10]: images/scp3.png
+
+
+* Setting an SSH Key
+
+    We can set an SSH key to avoid entering the password all the time. We use a program called `ssh-keygen`.
+
+    Run the commands like this:
+    ```
+    # on client (your computer)
+    $ ssh-keygen
+    Generating public/private rsa key pair.
+    Enter file in which to save the key (/Users/joe/.ssh/id_rsa): /Users/joe/.ssh/id_rsa
+    Enter passphrase (empty for no passphrase): 
+    Enter same passphrase again: 
+    Your identification has been saved in /Users/joe/.ssh/id_rsa.
+    Your public key has been saved in /Users/joe/.ssh/id_rsa.pub.
+    The key fingerprint is:
+    SHA256:jZaZH6fI8E2I1D35hnvGeBePQ4ELOf2Ge+G0XknoXp0 joe@Joes-Mac-mini.local
+    The key's randomart image is:
+    +---[RSA 3072]----+
+    |                 |
+    |       . . + .   |
+    |      . . B o .  |
+    |     . . B * +.. |
+    |      o S = *.B. |
+    |       = = O.*.*+|
+    |        + * *.BE+|
+    |           +.+.o |
+    |             ..  |
+    +----[SHA256]-----+
+    ```
+
+    If you use Windows, follow `ssh-add` [here][11].
+
+    [11]: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation
+
+    If you succeed, it should look like this:
+    ![Image][12]
+    ![Image][13]
+
+    [12]: images/SSH1.png
+    [13]: images/SSH2.png
+
+    Now, you are able to log in `ssh` without entering password.
+    ![Image][14]
+
+    [14]: images/SSH3.png
+
+* Optimizing Remote Running
+
+    There are some more ways to optimize remote running experience.
+
+    Here are some examples: 
+    
+    1. Write a command in quotes at the end of `ssh` command.
+    
+        `ssh cs15lwi22@ieng6.ucsd.edu "ls"`
+
+    2. Use semicolons to run multiple commands on the same line.
+
+        `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
+
+    3. Use up-arrow on the keyboard to recall the latest command that was run.
+
+    It should look like this:
+    ![Image][15]
+
+    [15]: images/Optimize.png
+
+***-End of Lab Report 1-***
