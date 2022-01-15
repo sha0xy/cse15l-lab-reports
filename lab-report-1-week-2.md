@@ -114,6 +114,7 @@
     If you use Windows, follow `ssh-add` [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 
     If you succeed, it should look like this:
+    
     ![Image][8]
     ![Image][9]
 
