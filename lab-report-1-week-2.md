@@ -13,9 +13,9 @@
    
 * **Connect Remotely**  
 
-    If you are using Windows, first [install OpenSSH][3]. 
+    If you are using Windows, first [install OpenSSH](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse). 
     
-    Then, check your course specific account [here][4].   
+    Then, check your course specific account [here](https://sdacs.ucsd.edu/~icc/index.php).   
     
     Next, we will connect to the remote computer. Open a new terminal in VSCode and enter the following command. Replace the `zz` with your own account.  
    
@@ -26,9 +26,6 @@
     ![Image][5]
 
     [5]: images/Connect.png
-    [4]: https://sdacs.ucsd.edu/~icc/index.php
-
-    [3]: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
 
 * **Try Some Commands**
 
@@ -114,9 +111,7 @@
     +----[SHA256]-----+
     ```
 
-    If you use Windows, follow `ssh-add` [here][11].
-
-    [11]: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation
+    If you use Windows, follow `ssh-add` [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 
     If you succeed, it should look like this:
     ![Image][12]
