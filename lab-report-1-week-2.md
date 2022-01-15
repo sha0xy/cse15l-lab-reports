@@ -123,7 +123,9 @@
 
     Now, you are able to log in `ssh` without entering password.
 
-    ![Image](images/SSH3.png)
+    ![Image][10]
+
+    [10]: images/SSH3.png
 
 * **Optimizing Remote Running**
 
