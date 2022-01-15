@@ -5,15 +5,15 @@
 
 > ## Steps
 
-* Install VSCode  
+* **Install VSCode**
 
-    Go to Visual Studio Code website [https://code.visualstudio.com/][1] to download and install the right version of VSCode. Open VSCode when installed and it should look like this.![Image][2]
+    Go to [Visual Studio Code website][1] to download and install the right version of VSCode. Open VSCode when installed and it should look like this.![Image][2]
 
     [2]: images/VSCode.png
    
     [1]: https://code.visualstudio.com/
 
-* Connect Remotely  
+* **Connect Remotely**  
 
     If you are using Windows, first [install OpenSSH][3]. 
     
@@ -32,7 +32,7 @@
 
     [3]: https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_install_firstuse
 
-* Try Some Commands
+* **Try Some Commands**
 
     Try running some commands both on your computer and on the remote computer after ssh-ing.
 
@@ -51,7 +51,7 @@
     [6]: images/Commands1.png
     [7]: images/Commands2.png
 
-* Moving Files with `scp`
+* **Moving Files with `scp`**
 
     The command `scp` can be used to copy a file from the client to the server.
 
@@ -86,7 +86,7 @@
     [10]: images/scp3.png
 
 
-* Setting an SSH Key
+* **Setting an SSH Key**
 
     We can set an SSH key to avoid entering the password all the time. We use a program called `ssh-keygen`.
 
@@ -132,7 +132,7 @@
 
     [14]: images/SSH3.png
 
-* Optimizing Remote Running
+* **Optimizing Remote Running**
 
     There are some more ways to optimize remote running experience.
 
