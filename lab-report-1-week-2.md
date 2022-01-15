@@ -7,9 +7,9 @@
 
 * **Install VSCode**
 
-    Go to [Visual Studio Code website](https://code.visualstudio.com/) to download and install the right version of VSCode. Open VSCode when installed and it should look like this.![Image][2]
+    Go to [Visual Studio Code website](https://code.visualstudio.com/) to download and install the right version of VSCode. Open VSCode when installed and it should look like this.![Image][1]
 
-    [2]: images/VSCode.png
+    [1]: images/VSCode.png
    
 * **Connect Remotely**  
 
@@ -23,9 +23,9 @@
 
     Enter your password, and you are logged in. If you succeed, it should look like this:
 
-    ![Image][5]
+    ![Image][2]
 
-    [5]: images/Connect.png
+    [2]: images/Connect.png
 
 * **Try Some Commands**
 
@@ -40,11 +40,11 @@
     6. `cat /home/linux/ieng6/cs15lwi22/public/hello.txt`
 
     Some examples:
-    ![Image][6]
-    ![Image][7]
+    ![Image][3]
+    ![Image][4]
 
-    [6]: images/Commands1.png
-    [7]: images/Commands2.png
+    [3]: images/Commands1.png
+    [4]: images/Commands2.png
 
 * **Moving Files with `scp`**
 
@@ -72,13 +72,13 @@
     Enter the password and you are logged in. Use `javac` and `java` to run it again on the server.
 
     It should look like this:
-    ![Image][8]
-    ![Image][9]
-    ![Image][10]
+    ![Image][5]
+    ![Image][6]
+    ![Image][7]
 
-    [8]: images/scp1.png
-    [9]: images/scp2.png
-    [10]: images/scp3.png
+    [5]: images/scp1.png
+    [6]: images/scp2.png
+    [7]: images/scp3.png
 
 
 * **Setting an SSH Key**
@@ -114,16 +114,16 @@
     If you use Windows, follow `ssh-add` [here](https://docs.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation).
 
     If you succeed, it should look like this:
-    ![Image][12]
-    ![Image][13]
+    ![Image][8]
+    ![Image][9]
 
-    [12]: images/SSH1.png
-    [13]: images/SSH2.png
+    [8]: images/SSH1.png
+    [9]: images/SSH2.png
 
     Now, you are able to log in `ssh` without entering password.
-    ![Image][14]
+    ![Image][10]
 
-    [14]: images/SSH3.png
+    [10]: images/SSH3.png
 
 * **Optimizing Remote Running**
 
@@ -142,8 +142,8 @@
     3. Use up-arrow on the keyboard to recall the latest command that was run.
 
     It should look like this:
-    ![Image][15]
+    ![Image][11]
 
-    [15]: images/Optimize.png
+    [11]: images/Optimize.png
 
 ***-End of Lab Report 1-***
