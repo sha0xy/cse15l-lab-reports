@@ -121,7 +121,7 @@
     [8]: images/SSH1.png
     [9]: images/SSH2.png
 
-    Now, you are able to log in `ssh` without entering password.
+    Now, you are able to log in ssh without entering password.
 
     ![Image][10]
 
