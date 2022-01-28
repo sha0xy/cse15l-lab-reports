@@ -137,7 +137,7 @@
 
     3. Use up-arrow on the keyboard to recall the latest command that was run.  
     
-    **An Example: `ssh` using cse15l account and exit.**
+    > **An Example: `ssh` using cse15l account and exit.**
     
     - Type the command in hand
     
