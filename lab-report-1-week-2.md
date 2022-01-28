@@ -158,7 +158,7 @@
     
     Keystroke count : 4
     
-    As the example shows, it can save a lot of time by using up-arrow.
-    
-
+    As the example shows, it can save a lot of time by using up-arrow.  
+      
+  
 ***-End of Lab Report 1-***
