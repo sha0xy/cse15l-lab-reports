@@ -135,14 +135,9 @@
 
         `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI`
 
-    3. Use up-arrow on the keyboard to recall the latest command that was run.
-
-    It should look like this:
-    ![Image][11]
-
-    [11]: images/Optimize.png
+    3. Use up-arrow on the keyboard to recall the latest command that was run.  
     
-    **Example: `ssh` using cse15l account and exit.**
+    **An Example: `ssh` using cse15l account and exit.**
     
     - Type the command in hand
     
@@ -159,6 +154,11 @@
     Keystroke count : 4
     
     As the example shows, it can save a lot of time by using up-arrow.  
+
+    The examples above should look like this:
+    ![Image][11]
+
+    [11]: images/Optimize.png
       
   
 ***-End of Lab Report 1-***
