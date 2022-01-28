@@ -139,14 +139,14 @@
     
     > **An Example: `ssh` using cse15l account and exit.**
     
-    - Type the command in hand
+    - Type the command in hand (without optimization)
     
     `ssh cs15lwi22aor@ucsd.ieng6.edu (return)`. 
     `exit (return)`. 
     
     Keystroke count: 36
     
-    - Using up-arrow the next time sshing
+    - Using up-arrow the next time sshing (with optimization)
     
     `(up-arrow)(return)`. 
     `(up-arrow)(return)`. 
