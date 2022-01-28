@@ -142,16 +142,20 @@
 
     [11]: images/Optimize.png
     
-    **Example: `ssh` using cse15l account and exit.
+    **Example: `ssh` using cse15l account and exit.**
     
     - Type the command in hand
-    `ssh cs15lwi22aor@ucsd.ieng6.edu (return)`
-    `exit (return)`
+    
+    `ssh cs15lwi22aor@ucsd.ieng6.edu (return)`. 
+    `exit (return)`. 
+    
     Keystroke count: 36
     
     - Using up-arrow the next time sshing
-    `(up-arrow)(return)`
-    `(up-arrow)(return)`
+    
+    `(up-arrow)(return)`. 
+    `(up-arrow)(return)`. 
+    
     Keystroke count : 4
     
     As the example shows, it can save a lot of time by using up-arrow.
