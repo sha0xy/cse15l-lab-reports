@@ -120,11 +120,11 @@
 
     [8]: images/SSH1.png
     [9]: images/SSH2.png
-
+    
+    Now, you can ssh without entering password.
     ![Image][10]
-
+    
     [10]: images/SSH3.png
-
 * **Optimizing Remote Running**
 
     There are some more ways to optimize remote running experience.
