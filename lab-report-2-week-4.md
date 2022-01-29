@@ -36,6 +36,8 @@
 
     The bug causes the symptom which is the unwanted output.
 
+***
+
 **Code Change 3**
 
 - This is a screenshot of the code change diff from Github: ![Image](images/CodeChangeDiff3.png)
