@@ -14,7 +14,9 @@
 
 **Test for Code Snippet 1 in my markdown-parse**
 
-- This is a screenshot of what it should produce: ![Image](images/test1preview.png)
+- This is a screenshot of what it should produce:  
+
+![Image](images/test1preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test1code.png)
 
@@ -24,7 +26,9 @@
 
 **Test for Code Snippet 1 in the markdown-parse I reviewed**
 
-- This is a screenshot of what it should produce: ![Image](images/test1preview.png)
+- This is a screenshot of what it should produce: 
+
+![Image](images/test1preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test1code.png)
 
@@ -34,7 +38,9 @@
 
 **Test for Code Snippet 2 in my markdown-parse**
 
-- This is a screenshot of what it should produce: ![Image](images/test2preview.png)
+- This is a screenshot of what it should produce: 
+
+![Image](images/test2preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test2code.png)
 
@@ -44,7 +50,9 @@
 
 **Test for Code Snippet 2 in the markdown-parse I reviewed**
 
-- This is a screenshot of what it should produce: ![Image](images/test2preview.png)
+- This is a screenshot of what it should produce: 
+
+![Image](images/test2preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test2code.png)
 
@@ -54,7 +62,9 @@
 
 **Test for Code Snippet 3 in my markdown-parse**
 
-- This is a screenshot of what it should produce: ![Image](images/test3preview.png)
+- This is a screenshot of what it should produce: 
+
+![Image](images/test3preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test3code.png)
 
@@ -64,7 +74,9 @@
 
 **Test for Code Snippet 3 in the markdown-parse I reviewed**
 
-- This is a screenshot of what it should produce: ![Image](images/test3preview.png)
+- This is a screenshot of what it should produce: 
+
+![Image](images/test3preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test3code.png)
 
