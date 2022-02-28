@@ -16,11 +16,13 @@
 
 - This is a screenshot of what it should produce:  
 
-![Image](images/test1preview.png)
+    ![Image](images/test1preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test1code.png)
 
 - This is a screenshot of the outcome of the test: ![Image](images/test1outcome.png)
+
+- I think there is not a small code change that will make my program work for snippet 1 and all related cases that use inline code with backticks. First of all, we need to find whether there is a pair of backticks in the test case, and then we need to find out whether the backticks are inside the brackets or either of them is outside of the brackets. Besides, we need to deal with brackets within the pair of backticks. There are too many issues to deal with.
 
 ***
 
@@ -28,7 +30,7 @@
 
 - This is a screenshot of what it should produce: 
 
-![Image](images/test1preview.png)
+    ![Image](images/test1preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test1code.png)
 
@@ -40,11 +42,13 @@
 
 - This is a screenshot of what it should produce: 
 
-![Image](images/test2preview.png)
+    ![Image](images/test2preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test2code.png)
 
 - This is a screenshot of the outcome of the test: ![Image](images/test2outcome.png)
+
+- I think there is not a small code change that will make my program work for snippet 2 and all related cases that nest parentheses, brackets, and escaped brackets. First, in order to include the nested link, we need to correctly pair the brackets, and then we need to exclude the outside link. We also need to pair the parentheses in order to find the real link. To identify escaped brackets, we need to distinguish normal brackets from escaped brackets. There are too many issues to deal with.
 
 ***
 
@@ -52,7 +56,7 @@
 
 - This is a screenshot of what it should produce: 
 
-![Image](images/test2preview.png)
+    ![Image](images/test2preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test2code.png)
 
@@ -64,11 +68,13 @@
 
 - This is a screenshot of what it should produce: 
 
-![Image](images/test3preview.png)
+    ![Image](images/test3preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test3code.png)
 
 - This is a screenshot of the outcome of the test: ![Image](images/test3outcome.png)
+
+- I think there is not a small code change that will make my program work for snippet 3 and all related cases that have newlines in brackets and parentheses. First, we need to look for line breaks in the brackets and we need to distinguish them from normal newlines. Besides, we also need to decide whether the newlines in the parentheses would invalidate the link. There are too many issues to deal with.
 
 ***
 
@@ -76,7 +82,7 @@
 
 - This is a screenshot of what it should produce: 
 
-![Image](images/test3preview.png)
+    ![Image](images/test3preview.png)
 
 - This is a screeshot of the code of the test: ![Image](images/test3code.png)
 
