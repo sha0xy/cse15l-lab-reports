@@ -29,6 +29,10 @@
 
 - My implement is correct.
 
+- The given implement is incorrect. It excludes all the links with spaces while sometimes links may be valid even with spaces. To fix the problem, it should check whether the spaces will invalidate the link and then decide to exclude the link or not. This is the screenshot of the part of the code needed to be fixed:
+
+    ![Image](images/test1fix.png)
+
 ***
 
 **Test 2 that has different results**
